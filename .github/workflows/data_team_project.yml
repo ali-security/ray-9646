@@ -9,7 +9,7 @@ on:
 jobs:
   add-to-project:
     name: Add Datasets issues to Data Team project
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     permissions:
       repository-projects: write
     steps:
